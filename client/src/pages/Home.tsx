@@ -76,7 +76,7 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <a href="tel:+34960730438" className="w-full sm:w-auto">
+                <a href="tel:+34662681060" className="w-full sm:w-auto">
                   <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-base font-bold bg-primary hover:bg-blue-600 shadow-xl shadow-primary/25 hover:shadow-2xl hover:shadow-primary/40 hover:-translate-y-1 transition-all">
                     <PhoneCall className="mr-2 h-5 w-5" />
                     Llamar Ahora
@@ -217,10 +217,10 @@ export default function Home() {
           <p className="text-blue-100 text-xl mb-8 max-w-2xl mx-auto">
             Nuestro equipo está listo para ayudarte en cualquier momento. No dejes que un pequeño problema se convierta en uno grande.
           </p>
-          <a href="tel:+34960730438">
+          <a href="tel:+34662681060">
             <Button size="lg" className="bg-white text-primary hover:bg-blue-50 text-lg h-14 px-10 shadow-xl font-bold">
               <PhoneCall className="mr-2 h-5 w-5" />
-              Llamar al 960 730 438
+              Llamar al 662 681 060
             </Button>
           </a>
         </div>
@@ -330,9 +330,9 @@ export default function Home() {
                     <p className="text-slate-300 mb-6">
                       Si es una urgencia, te recomendamos llamar directamente a nuestro teléfono disponible 24h.
                     </p>
-                    <a href="tel:+34960730438" className="inline-flex items-center gap-3 text-2xl font-bold text-white hover:text-blue-300 transition-colors">
+                    <a href="tel:+34662681060" className="inline-flex items-center gap-3 text-2xl font-bold text-white hover:text-blue-300 transition-colors">
                       <PhoneCall className="w-6 h-6" />
-                      960 730 438
+                      662 681 060
                     </a>
                   </div>
                   
@@ -365,13 +365,13 @@ export default function Home() {
 
       {/* Floating Mobile CTA */}
       <div className="fixed bottom-0 left-0 w-full p-4 bg-white border-t border-slate-200 shadow-2xl lg:hidden z-40 flex gap-3">
-        <a href="tel:+34960730438" className="flex-1">
+        <a href="tel:+34662681060" className="flex-1">
           <Button className="w-full h-12 text-lg font-bold shadow-lg bg-primary hover:bg-blue-600">
             <PhoneCall className="w-5 h-5 mr-2" />
             Llamar
           </Button>
         </a>
-        <a href="https://wa.me/34960730438" className="flex-none">
+        <a href="https://wa.me/34662681060" className="flex-none">
           <Button variant="outline" className="h-12 w-12 p-0 border-green-500 text-green-600 bg-green-50 hover:bg-green-100">
              {/* WhatsApp Icon placeholder since it's not in Lucide regular set, using MessageCircle instead */}
              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>

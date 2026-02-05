@@ -75,7 +75,7 @@ export function Navigation() {
               </Link>
             ))}
             
-            <a href="tel:+34960730438">
+            <a href="tel:+34662681060">
               <Button 
                 variant={isScrolled ? "default" : "secondary"}
                 className={cn(
@@ -84,7 +84,7 @@ export function Navigation() {
                 )}
               >
                 <Phone className="w-4 h-4" />
-                960 730 438
+                662 681 060
               </Button>
             </a>
           </div>
@@ -122,7 +122,7 @@ export function Navigation() {
                 {link.name}
               </Link>
             ))}
-            <a href="tel:+34960730438" className="mt-4 block">
+            <a href="tel:+34662681060" className="mt-4 block">
               <Button className="w-full gap-2 font-bold bg-primary text-white">
                 <Phone className="w-4 h-4" />
                 Llamar Ahora
