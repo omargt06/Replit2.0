@@ -22,9 +22,6 @@ export function ServiceCard({ icon, title, description }: ServiceCardProps) {
       
       <CardContent className="relative z-10">
         <p className="text-slate-500 leading-relaxed mb-4">{description}</p>
-        <div className="flex items-center text-primary font-semibold text-sm cursor-pointer group-hover:translate-x-1 transition-transform">
-          Saber más <ArrowRight className="ml-1 w-4 h-4" />
-        </div>
       </CardContent>
     </Card>
   );
