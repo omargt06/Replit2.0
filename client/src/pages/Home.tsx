@@ -21,6 +21,8 @@ import {
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 
+import sinkImgPath from "@assets/Screenshot_2026-02-05_172157_1770360978273.png";
+
 export default function Home() {
   const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
@@ -90,32 +92,16 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Floating Stats Card */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="hidden lg:block relative"
+              className="relative"
             >
-              <div className="relative z-10 bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl shadow-2xl">
-                <div className="grid grid-cols-2 gap-8">
-                  <div className="space-y-2">
-                    <div className="text-4xl font-bold text-white">24/7</div>
-                    <div className="text-sm text-slate-400">Servicio de Urgencia</div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-4xl font-bold text-white">100%</div>
-                    <div className="text-sm text-slate-400">Garantía de Calidad</div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-4xl font-bold text-white">+15</div>
-                    <div className="text-sm text-slate-400">Años de Experiencia</div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="text-4xl font-bold text-white">Val</div>
-                    <div className="text-sm text-slate-400">Toda la Provincia</div>
-                  </div>
-                </div>
+              <div className="relative z-10 bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-2xl overflow-hidden">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+                <h3 className="text-2xl font-bold text-white mb-6 relative z-10">Solicita tu presupuesto</h3>
+                <ContactForm />
               </div>
             </motion.div>
           </div>
@@ -130,7 +116,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-primary/10 rounded-3xl transform rotate-3 scale-105 z-0" />
               {/* Unsplash: Plumber team or tools */}
               <img 
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=1000&auto=format&fit=crop"
+                src={sinkImgPath}
                 alt="Nuestro equipo" 
                 className="relative z-10 rounded-3xl shadow-2xl w-full object-cover h-[500px]"
               />
