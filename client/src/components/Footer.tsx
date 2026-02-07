@@ -1,4 +1,4 @@
-import { Droplets, Phone, MapPin, Clock, Facebook, Instagram, Youtube } from "lucide-react";
+import { Droplets, Phone, MapPin, Clock } from "lucide-react";
 import { Link } from "react-scroll";
 
 export function Footer() {
