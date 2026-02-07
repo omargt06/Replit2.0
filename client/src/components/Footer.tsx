@@ -17,17 +17,6 @@ export function Footer() {
               Servicios profesionales de fontanería en Valencia. 
               Calidad, rapidez y garantía en cada trabajo que realizamos.
             </p>
-            <div className="flex gap-4 pt-2">
-              <a href="#" className="bg-slate-800 p-2 rounded-full hover:bg-primary hover:text-white transition-colors">
-                <Facebook className="w-4 h-4" />
-              </a>
-              <a href="#" className="bg-slate-800 p-2 rounded-full hover:bg-primary hover:text-white transition-colors">
-                <Instagram className="w-4 h-4" />
-              </a>
-              <a href="#" className="bg-slate-800 p-2 rounded-full hover:bg-primary hover:text-white transition-colors">
-                <Youtube className="w-4 h-4" />
-              </a>
-            </div>
           </div>
 
           {/* Contact Info */}

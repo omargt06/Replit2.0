@@ -196,6 +196,76 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-24 bg-white overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+            <h2 className="text-4xl font-bold text-slate-900">Opiniones de Nuestros Clientes</h2>
+            <p className="text-lg text-slate-600">
+              La satisfacción de nuestros clientes es nuestra mejor carta de presentación.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="flex text-yellow-400 gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map(i => <span key={i}>★</span>)}
+              </div>
+              <p className="text-slate-700 italic mb-6">
+                "Totalmente impresionado con su trabajo. Superaron todas mis expectativas. ¡Los recomiendo sin dudar!"
+              </p>
+              <div>
+                <p className="font-bold text-slate-900">Deacon st</p>
+                <p className="text-sm text-slate-500">Hace un año</p>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="flex text-yellow-400 gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map(i => <span key={i}>★</span>)}
+              </div>
+              <p className="text-slate-700 italic mb-6">
+                "El equipo de Hnos Cantueño me dejó impresionado por su profesionalismo y rapidez. ¡Volveré a llamarlos sin dudarlo!"
+              </p>
+              <div>
+                <p className="font-bold text-slate-900">Mauricio Rogeli</p>
+                <p className="text-sm text-slate-500">Hace 11 meses</p>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
+            >
+              <div className="flex text-yellow-400 gap-1 mb-4">
+                {[1, 2, 3, 4, 5].map(i => <span key={i}>★</span>)}
+              </div>
+              <p className="text-slate-700 italic mb-6">
+                "Los mejores en el negocio, respondieron a mi llamada y llegaron rápidamente. ¡Estoy muy agradecido! 🙏"
+              </p>
+              <div>
+                <p className="font-bold text-slate-900">Esmeraldo Fabian</p>
+                <p className="text-sm text-slate-500">Hace un año</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Strip */}
       <section className="py-16 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
